@@ -9,6 +9,7 @@ namespace Web.Controllers
     public class HomeController : Controller
     {
         // Merhaba Dünya!
+        // Merhaba Ferhat!
 
         readonly ILogDao _dao = new LogDao();
 
