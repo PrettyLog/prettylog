@@ -8,6 +8,8 @@ namespace Web.Controllers
 {
     public class HomeController : Controller
     {
+        // Merhaba Dünya!
+
         readonly ILogDao _dao = new LogDao();
 
         public ActionResult Index()
